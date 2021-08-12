@@ -12,7 +12,7 @@ const reducer = (state, action) => {
     case 'JUMP':
       return {
         ...state,
-        history: state.historyslice(0, action.payload.step + 1),
+        history: state.history.slice(0, action.payload.step + 1),
         xIsNext: action.payload.step % 2 === 0,
       };
     default:
@@ -71,5 +71,26 @@ export default function Game() {
 }
 
 const calculateWinner = (squares) => {
-  const winerLiunes = [[0, 1, 2], [3, 4, 5], []];
+  const winnerLines = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6],
+  ];
+  let isDraw = true;
+  for (let i = 0; i < winnerLines.length; i++) {
+    const [a, b, c] = winnerLines[i];
+    if (squares[a] && squares[a] === squares[b] && squares[b] === squares[c]) {
+      return squares[a];
+    }
+    if (!squares[a] || !squares[b] || !squares[c]) {
+      isDraw = false;
+    }
+  }
+  if (isDraw) return 'D';
+  return null;
 };
