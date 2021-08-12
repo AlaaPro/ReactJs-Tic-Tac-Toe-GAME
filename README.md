@@ -1,3 +1,5 @@
+**The GAME is published on GH-PAGES (feel free to try it )** ==> *https://alaapro.github.io/ReactJs-Tic-Tac-Toe-GAME/**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
