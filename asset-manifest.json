@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/css/main.37db5696.chunk.css",
-    "main.js": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/main.7376b50d.chunk.js",
-    "main.js.map": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/main.7376b50d.chunk.js.map",
-    "runtime-main.js": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/runtime-main.c3aeb043.js",
-    "runtime-main.js.map": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/runtime-main.c3aeb043.js.map",
-    "static/js/2.31e3e24f.chunk.js": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/2.31e3e24f.chunk.js",
-    "static/js/2.31e3e24f.chunk.js.map": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/2.31e3e24f.chunk.js.map",
-    "static/js/3.563555b6.chunk.js": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/3.563555b6.chunk.js",
-    "static/js/3.563555b6.chunk.js.map": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/3.563555b6.chunk.js.map",
-    "index.html": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/index.html",
-    "static/css/main.37db5696.chunk.css.map": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/css/main.37db5696.chunk.css.map",
-    "static/js/2.31e3e24f.chunk.js.LICENSE.txt": "/AlaaPro/ReactJs-Tic-Tac-Toe-GAME/static/js/2.31e3e24f.chunk.js.LICENSE.txt"
+    "main.css": "/ReactJs-Tic-Tac-Toe-GAME/static/css/main.37db5696.chunk.css",
+    "main.js": "/ReactJs-Tic-Tac-Toe-GAME/static/js/main.7376b50d.chunk.js",
+    "main.js.map": "/ReactJs-Tic-Tac-Toe-GAME/static/js/main.7376b50d.chunk.js.map",
+    "runtime-main.js": "/ReactJs-Tic-Tac-Toe-GAME/static/js/runtime-main.f331cace.js",
+    "runtime-main.js.map": "/ReactJs-Tic-Tac-Toe-GAME/static/js/runtime-main.f331cace.js.map",
+    "static/js/2.31e3e24f.chunk.js": "/ReactJs-Tic-Tac-Toe-GAME/static/js/2.31e3e24f.chunk.js",
+    "static/js/2.31e3e24f.chunk.js.map": "/ReactJs-Tic-Tac-Toe-GAME/static/js/2.31e3e24f.chunk.js.map",
+    "static/js/3.563555b6.chunk.js": "/ReactJs-Tic-Tac-Toe-GAME/static/js/3.563555b6.chunk.js",
+    "static/js/3.563555b6.chunk.js.map": "/ReactJs-Tic-Tac-Toe-GAME/static/js/3.563555b6.chunk.js.map",
+    "index.html": "/ReactJs-Tic-Tac-Toe-GAME/index.html",
+    "static/css/main.37db5696.chunk.css.map": "/ReactJs-Tic-Tac-Toe-GAME/static/css/main.37db5696.chunk.css.map",
+    "static/js/2.31e3e24f.chunk.js.LICENSE.txt": "/ReactJs-Tic-Tac-Toe-GAME/static/js/2.31e3e24f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3aeb043.js",
+    "static/js/runtime-main.f331cace.js",
     "static/js/2.31e3e24f.chunk.js",
     "static/css/main.37db5696.chunk.css",
     "static/js/main.7376b50d.chunk.js"
