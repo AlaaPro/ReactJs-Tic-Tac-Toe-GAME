@@ -15,6 +15,7 @@ body {
   background-color: #ffffff;
   color: #e5dc15;
   font-family: 'Montserrat, sans-setif';
+  font-size: 50px;
   text-transform: uppercase;
   margin: 15px;
   padding: 5px;
@@ -39,6 +40,17 @@ body {
   box-shadow: 0 4px #c2bb11, 0 10px rgba(0, 0, 0, 0.4);
 }
 
+.btn.disabled:hover,
+.btn.disabled:active,
+.game.disabled .btn:hover,
+.game.disabled .btn:active {
+  background-color: #ffffff;
+  color: #e5dc15;
+  box-shadow: 0 12px #c2bb11, 0 18px rgba(0, 0, 0, 0.4);
+  top: 0px;
+  cursor: auto;
+}
+
 .game {
   display: flex;
   flex-wrap: wrap;
@@ -51,4 +63,43 @@ body {
 
 .board > div {
   display: flex;
+}
+
+.status {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 3px 3px 2px #000000;
+}
+
+.steps {
+  box-shadow: 1px 1px 5px;
+  margin: 0 0px 12px 0;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid;
+}
+
+li button {
+  border: none;
+  color: rgb(6, 136, 136);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 0px;
+  box-shadow: 2px 2px 5px #000;
+  position: relative;
+}
+li button:hover {
+  box-shadow: 1px 1px 3px #000;
+  cursor: pointer;
+}
+li button:active {
+  box-shadow: 2px 2px 5px #000;
+  top: 2px;
+}
+
+li button span.startGame {
+  padding: 10px 5px !important;
+  display: inline-block;
+  position: relative;
 }

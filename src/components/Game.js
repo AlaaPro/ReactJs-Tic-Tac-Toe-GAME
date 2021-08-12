@@ -45,9 +45,13 @@ export default function Game() {
     ? winner === 'D'
       ? 'Draw'
       : 'Winner is ' + winner
-    : 'Next player is ' + (xIsNext ? 'X' : 'O');
+    : 'Next player is ' + (xIsNext ? '-X-' : '-O-');
   const moves = history.map((step, move) => {
-    const desc = move ? 'Go to #' + move : 'Start the game ';
+    const desc = move ? (
+      'Go to #' + move
+    ) : (
+      <span className="startGame">Start the game </span>
+    );
     return (
       <li key={move}>
         <button onClick={() => jumpTo(move)}>{desc}</button>
@@ -55,15 +59,16 @@ export default function Game() {
     );
   });
   return (
-    <div className="game">
+    <div className={winner ? `game disabled` : 'game'}>
       <div className="game-board">
+        <div className="status">{status}</div>
         <Board
           onClick={(i) => handleClick(i)}
           squares={current.squares}
         ></Board>
       </div>
       <div className="game-info">
-        <div>{status}</div>
+        <div className="steps">Steps History</div>
         <div>{moves}</div>
       </div>
     </div>
